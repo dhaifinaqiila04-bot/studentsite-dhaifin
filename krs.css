@@ -1,0 +1,142 @@
+
+
+#krs .body {
+    border: 1px solid black;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0;                
+    box-sizing: border-box;   
+}
+
+#krs .table-header {
+    background: #333;
+    height: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: smaller;
+    margin: 90px auto 0 auto; 
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+  
+#krs .table-content{
+    background: white;
+    display: flex;
+    width: 900px;
+    height: 600px;
+    margin: 1px auto;
+    font-weight: 600;
+    font-size: medium;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#krs .data-mahasiswa{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+}
+
+.data-mahasiswa .column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column .label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.column .value{
+    display: inline-block;
+    height: 24px;              
+    font-size: 16px;                      
+    border-radius: 5px;        
+    border: 2px solid #000000;
+    width:200px;
+    max-width: 80%;
+    background: rgb(205, 201, 201);
+}
+
+.data-krs{
+    border-collapse: collapse;
+    margin: 0px auto;
+    font-size: medium;
+    max-width: 70%;
+    width: 800px;
+}
+
+.data-krs thead tr{
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.data-krs th, td{
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.data-krs tbody tr{
+    border: 1px solid black;
+}
+
+.total-sks {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+
+.krs-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-krs-btn,
+.delete-krs-btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-krs-btn {
+    background-color: green;
+}
+
+.delete-krs-btn {
+    background-color: red;
+}
+
+.exit-link {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.exit-link:hover {
+    text-decoration-line: underline;
+}
+
